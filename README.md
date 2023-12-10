@@ -5,8 +5,7 @@
 > Install Module
 
 ```bash
-npm i express @types/express
-npm i -D nodemon typescript ts-node @types/cors @types/multer 
+npm i express compression cors morgan multer
+npm i -D nodemon typescript ts-node @types/cors @types/express @types/multer @types/compression @types/morgan
 npm i dotenv
-npm i cors 
 ```
