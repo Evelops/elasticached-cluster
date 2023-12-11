@@ -1,8 +1,18 @@
-### ETS
+## ts-express-boiler
 
-#### LOG
+#### Adding Yet 
 
-> Install Module
+- Redis 
+- ES(elastic search)
+- JWT 
+- Sequelize || ORM 
+- passport
+- Mongo
+
+
+#### INSTALL LOG
+
+> command
 
 ```bash
 npm i express compression cors morgan multer dotenv
