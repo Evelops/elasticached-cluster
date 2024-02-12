@@ -16,9 +16,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-//Router
-app.get('/', (req: Request, res: Response) => {
-  res.send('Root Router');
-});
+import main from './routers/main';
+
+app.use('/',main);
+
 
 export default app;
