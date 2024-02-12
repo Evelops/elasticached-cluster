@@ -1,13 +1,9 @@
 import express, { Express, Request, Response, NextFunction, Router } from 'express';
+import * as MainController from '../controllers/main.controller';
 
 const router: Router = express.Router();
 
-router.get('/', (req: Request, res: Response, next: NextFunction) => {
-  res.send('root render');
-  try {
-  } catch (error) {
-    next(error);
-  }
-});
+// test
+router.get('/', MainController.mainController);
 
 export default router;
