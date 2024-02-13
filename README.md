@@ -21,3 +21,4 @@ $ src/redis-cli -c -h [redis_endPoint] -p 6379
 
 - 동일한 VPC 환경에서 사용(EC2 & Elasticache)
 - VPC SG 6317 방화벽 허용 
+- Testing For Upstash 
